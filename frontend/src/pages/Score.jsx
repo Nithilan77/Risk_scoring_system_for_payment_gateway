@@ -78,7 +78,7 @@ export default function Score() {
       <h1 className="text-3xl font-bold text-gray-800 mb-1">Score a Transaction</h1>
       <p className="text-gray-500 mb-8">
         Scores how unusual a transaction is versus the account's normal behaviour.
-        The result is an anomaly score, not a fraud probability.
+        The result is an anomaly score.
       </p>
 
       <div className="grid grid-cols-2 gap-4 mb-4">

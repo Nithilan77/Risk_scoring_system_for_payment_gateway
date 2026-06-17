@@ -39,8 +39,7 @@ app = FastAPI(
     description=(
         "Scores how UNUSUAL a transaction is versus an account's own normal "
         "behaviour. Returns a 0-100 anomaly score with an explainable "
-        "breakdown. This is a behavioural risk/anomaly score, NOT a fraud "
-        "probability — the underlying data has no fraud labels."
+        "breakdown. This is a behavioural risk/anomaly score"
     ),
     version="1.0.0",
 )
